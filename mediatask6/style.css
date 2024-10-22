@@ -1,0 +1,17 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 400px;
+    height: 300px;
+    border: 2px solid;
+    background-color: yellow;
+}
+@media screen and (width >= 600px) {
+  .container{
+    box-shadow: 10px 10px 10px 10px;
+  }
+    
+}
